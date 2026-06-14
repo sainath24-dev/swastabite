@@ -119,9 +119,6 @@ export default function HomeSubpage({ onNavigate }: { onNavigate: (id: string) =
           {/* Abstract 3D Shapes */}
           <div className="absolute top-[-20%] right-[-10%] w-96 h-96 bg-[#3a6e00]/20 rounded-full blur-[120px]" />
           <div className="absolute bottom-[-10%] left-[-5%] w-64 h-64 bg-purple-500/10 rounded-full blur-[100px]" />
-          <div className="absolute right-12 top-1/2 -translate-y-1/2 opacity-20">
-             <Leaf size={200} className="text-white rotate-12" />
-          </div>
         </motion.div>
 
         <motion.div 
